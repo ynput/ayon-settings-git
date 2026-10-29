@@ -1,0 +1,1 @@
+{"root":["./src/addon.tsx","./src/addonversion.d.ts","./src/api.ts","./src/main.tsx","./src/remoteaddon.ts","./src/remote/bundlehistorypanel.tsx","./src/remote/comparepanel.tsx","./src/remote/settingsgitpage.tsx","./src/remote/settingshistorypanel.tsx"],"version":"5.7.2"}

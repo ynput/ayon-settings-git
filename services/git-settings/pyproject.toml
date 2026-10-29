@@ -1,0 +1,11 @@
+[project]
+name = "ayon-settings-git-worker"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "ayon-python-api",
+    "httpx",
+    "pyyaml",
+    "starlette",
+    "websockets>=15.0.1",
+]

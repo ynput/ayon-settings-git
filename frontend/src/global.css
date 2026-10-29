@@ -1,0 +1,83 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: var(--md-sys-color-surface-container-lowest);
+  color: var(--md-sys-color-on-surface);
+}
+
+.settings-git-panel {
+  display: flex;
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+}
+
+.settings-git-history-list {
+  width: 260px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.settings-git-history-entry {
+  justify-content: flex-start;
+  text-align: left;
+  height: auto;
+  padding: 6px 8px;
+}
+
+.revision-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.revision-message {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.revision-meta {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.settings-git-diff {
+  flex: 1;
+  min-width: 0;
+  overflow: auto;
+}
+
+.settings-git-loading,
+.settings-git-empty,
+.settings-git-error {
+  padding: 12px;
+  opacity: 0.8;
+}
+
+.settings-git-error {
+  color: #d9534f;
+}
+
+.settings-git-compare {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+}
+
+.settings-git-compare-sides {
+  display: flex;
+  gap: 12px;
+}
+
+.settings-git-compare-side {
+  flex: 1;
+  min-width: 0;
+}
